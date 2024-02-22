@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited{
+            color: blue;
+        }
+
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+
+        a:active{
+            color: yellow;
+        }
+
+        .Especial::before{
+            content: '↦'
+        }
+
+        .Especial{
+            background-color: darkgray;
+        }
+
+        .Especial::after{
+            content: ' ↤';
+        }
+    </style>
+</head>
+<body>
+    <h1>Pesonalizando Links</h1>
+        <ul>
+            <li><a href="https://github.com/ViniKnuivers" class="Especial" target="_blank">Repositório GitHub</a></li>
+            <li><a href="https://www.youtube.com/watch?v=4bOJtb39lyg&list=RD4bOJtb39lyg&start_radio=1&ab_channel=RockDangerRec" target="_blank">Canal do Youtube</a></li>
+            <li><a href="https://discord.com/" target="_blank">Site Discord</a></li>
+        </ul>
+        <ul>
+            <li>#  = ID</li>
+            <li>.  = CLASS</li>
+            <li>:  = PSEUDO-CLASS</li>
+            <li>:: = PSEUDO-ELEMENT</li>
+            <li>>  = CHILDREN</li>
+        </ul>
+</body>
+</html>
